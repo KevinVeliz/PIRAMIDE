@@ -28,6 +28,8 @@ system("clear");
   return 0;
 }
 
+
+//FUNCION MENU
 int menu(int op)
 {
   op= -1;
@@ -47,6 +49,7 @@ int menu(int op)
   return op;
 }
 
+//FUNCION ESCRIBIR
 void escribir()
 {
   ofstream datos;
